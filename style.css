@@ -33,7 +33,7 @@
 
 /* banner style */
 header {
-  /* background-color: rgba(229, 84, 115, 0.1); */
+  background-color: rgba(229, 84, 115, 0.1);
   margin-bottom: 178px;
 }
 .banner {
@@ -82,9 +82,9 @@ header {
 /* service section styles */
 .services {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
-  gap: 50px;
+  gap: 40px;
   width: 1440px;
   height: 320px;
   /* padding: 85px 175px; */
@@ -99,7 +99,7 @@ header {
 .sale-up {
   display: flex;
   gap: 185px;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   margin-bottom: 128px;
   border-radius: 8px;
@@ -110,4 +110,18 @@ header {
 
 .sale-up span {
   color: #e55473;
+}
+
+/* Instagram section*/
+.instagram {
+  /* display: flex; */
+  text-align: center;
+  margin: 0px auto 128px auto;
+}
+
+.instagram-image-conteinar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
