@@ -79,3 +79,18 @@ header {
   font-weight: 700;
   text-decoration-line: underline;
 }
+/* service section styles */
+.services {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+  width: 1440px;
+  height: 320px;
+  /* padding: 85px 175px; */
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  border: none;
+  text-align: center;
+  margin: 0 auto 128px auto;
+}
