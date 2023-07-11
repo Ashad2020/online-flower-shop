@@ -46,7 +46,7 @@ header {
 }
 .banner-tile {
   color: #272727;
-  font-size: 80px;
+  font-size: 70px;
   font-weight: 800;
   line-height: normal;
 }
@@ -96,12 +96,43 @@ header {
   background-position: center;
 }
 .img-description {
-  margin-top: 32px;
+  margin-top: 25px;
   color: #272727;
   text-align: center;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 700;
   text-decoration-line: underline;
+}
+
+/* Premium Glass*/
+
+.glass-vase-flowers {
+  text-align: center;
+  margin: 0px auto 128px auto;
+}
+.glass-vase-flowers > h2 {
+  margin-top: -20px;
+  margin-bottom: 24px;
+}
+.flower-container {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
+.glass-vase-flower {
+  position: relative;
+}
+
+.glass-vase-flower > p {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px 10px;
+  color: #fff;
+  background: #757575;
+  text-align: center;
+  border: none;
+  border-radius: 3px;
 }
 /* service section styles */
 .services {
@@ -165,6 +196,10 @@ header {
   background-repeat: no-repeat;
   height: 450px;
   background-position: center;
+  margin: 0px auto 128px auto;
+  max-width: 1140px;
+  border-radius: 8px;
+  border: none;
 }
 .subscribe-contact {
   margin-top: 48px;
