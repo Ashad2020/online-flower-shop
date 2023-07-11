@@ -51,8 +51,14 @@ header {
   line-height: normal;
 }
 .banner-content {
-  max-width: 700px;
-  padding-top: 190px;
+  max-width: 750px;
+  padding-top: 130px;
+  padding-bottom: 80px;
+}
+
+.banner > img {
+  width: 50%;
+  /* height: 70%; */
 }
 /* Feature flower section */
 .featured-flowers {
@@ -63,12 +69,29 @@ header {
 .showCase-flowers {
   display: flex;
   gap: 25px;
+  justify-content: center;
 }
-.flower {
-  width: 464px;
+.flower1 {
+  width: 360px;
   height: 538px;
   border-radius: 300px 300px 0px 0px;
-  background: url("./Flower Asset/pngwing 5.png"), rgba(167, 33, 98, 0.15);
+  background: url("./Flower Asset/pngwing 5.png"), rgba(5, 151, 160, 0.15);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.flower2 {
+  width: 360px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+  background: url("./Flower Asset/pngwing 6.png"), rgba(167, 33, 98, 0.15);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.flower3 {
+  width: 360px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+  background: url("./Flower Asset/pngwing 7.png"), rgba(71, 125, 17, 0.15);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -128,6 +151,9 @@ header {
   margin-top: 48px;
 }
 
+.instagram img {
+  width: 270px;
+}
 /* subscribe section */
 .subscribe {
   text-align: center;
