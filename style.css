@@ -40,7 +40,7 @@ header {
 .banner {
   display: flex;
   margin: 0 auto;
-  width: 1440px;
+  width: 1140px;
   padding-top: 30px;
   gap: 95px;
 }
@@ -57,7 +57,7 @@ header {
 /* Feature flower section */
 .featured-flowers {
   margin: 0 auto 128px auto;
-  width: 1440px;
+  width: 1140px;
   text-align: center;
 }
 .showCase-flowers {
@@ -86,7 +86,7 @@ header {
   justify-content: space-evenly;
   align-items: center;
   gap: 40px;
-  width: 1440px;
+  width: 1140px;
   height: 320px;
   /* padding: 85px 175px; */
   border-radius: 8px;
@@ -138,6 +138,7 @@ header {
   background-image: url("./Flower Asset/Rectangle 9.png");
   background-repeat: no-repeat;
   height: 450px;
+  background-position: center;
 }
 .subscribe-contact {
   margin-top: 48px;
