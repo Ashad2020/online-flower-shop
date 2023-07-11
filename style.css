@@ -23,6 +23,7 @@
   font-size: 20px;
   font-weight: 700;
   cursor: pointer;
+  text-align: center;
 }
 .section-heading {
   color: #272727;
@@ -124,4 +125,39 @@ header {
   justify-content: center;
   align-items: center;
   gap: 20px;
+}
+
+/* subscribe section */
+.subscribe {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./Flower Asset/Rectangle 9.png");
+  background-repeat: no-repeat;
+  height: 450px;
+}
+.subscribe-contact {
+  margin-top: 48px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.subscribe input[type="email"] {
+  width: 700px;
+  /* height: 64px; */
+  padding: 22px;
+  border-radius: 8px;
+  background: #fff;
+  border: none;
+
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+}
+.btn-subscribe {
+  height: 60px;
+  text-align: center;
+  padding: 15px 30px;
 }
